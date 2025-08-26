@@ -4,6 +4,5 @@
    * Vectors and Matrices
       * Numbers
          * Number set
-          
-
-3. 
+### ⬛ What is Linear algebra?
+$\large\textrm{Answer}:$ Linear Algebra is a mathematical discipline that deals with **vectors** and **matrices** and more generally, with **vector spaces** and **linear transformations**. 
