@@ -14,3 +14,6 @@
   
 </div>
 
+
+ These sets of numbers form a hierarchy, with <img width="200" height="53" align="center" alt="hei" src="https://github.com/user-attachments/assets/c0831047-7fed-4866-ab54-a1c4a806dc5c" /> The size of a set of numbers is  an important aspect of its utility in describing natural phenomena. The set $\large{\color{Purple}S= \\{Mary, Jane, Tom \\}}$ has three elements, and its size is defined by the **cardinal number** $\large{\color{Purple}\textbar S \textbar =3 }$
+ 
