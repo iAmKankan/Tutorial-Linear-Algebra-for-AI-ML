@@ -51,6 +51,6 @@ In **Computer Science Vector** is a data in _tabuler form_ having _rows_ and _co
 #### Example #2
 * A geostationary satellite is in orbit above Earth. It moves at constant speed but its velocity is constantly changing (since its direction is always changing).
 
-### Difference between Scalar and Vector quantities
+### 🔲 Difference between Scalar and Vector quantities
 * **Speed** is a scalar quantity – **it is the rate of change in the distance travelled by an object.**
 * While **velocity** is a **vector quantity** – **it is the speed of an object in a particular direction.**
