@@ -51,6 +51,44 @@ In **Computer Science Vector** is a data in _tabuler form_ having _rows_ and _co
 #### Example #2
 * A geostationary satellite is in orbit above Earth. It moves at constant speed but its velocity is constantly changing (since its direction is always changing).
 
-### 🔲 Difference between Scalar and Vector quantities
+### ⬜ Difference between Scalar and Vector quantities
 * **Speed** is a scalar quantity – **it is the rate of change in the distance travelled by an object.**
 * While **velocity** is a **vector quantity** – **it is the speed of an object in a particular direction.**
+
+
+ ### ⬜  Matrix
+ In **Machine Learning**, a matrix is a **2-D array** of numbers. In Computer Science, a **matrix** is a **_multidimensional array_**. 
+
+#### Example #1
+* Let <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{W}=\mathbb{R}^{m\times&space;n}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{W}=\mathbb{R}^{m\times n}}" />, be the matrix of weight.
+
+### Difference between Vector and Matrix
+*  A **matrix** is a rectangular array of numbers while a **vector** is a list of number. 
+*  Vector have one index, matrix having two index.
+
+### Tensors
+ In Machine Learning, Tensors are array of numbers with **dimensions greater than two(2)**.
+
+_The general term of **Scalars**, **Vectors** and **Matrix** is **Tensors**._ The use of **Tensors** or **multi-dimensional matrices** Google named the package "Tensorflow".
+
+#### Example #1
+<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" />
+
+> ### Just as **vectors** generalize **scalars**, and **matrices** generalize **vectors**. **Tensors** ("tensors" in this subsection refer to algebraic objects) give us a generic way of describing  **n-dimensional arrays** with an arbitrary number of axes.
+
+**Vectors** are **first-order tensors** and **Matrix** are **second-order tensors**. Tensors are denoted with capital letters of a special font face (e.g.,  **X** ,  **Y** , and  **Z** ) and their **indexing mechanism** (e.g. <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}\&space;\&space;x_{ijk}\&space;\&space;and\&space;\&space;[X]_{1,2i-1,3}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple}\ \ x_{ijk}\ \ and\ \ [X]_{1,2i-1,3}}" />) is similar to that of **matrices**.
+
+
+### Tensors Orders
+ 
+#### Scalar(**0<sup>th</sup>** order **Tensor**) <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{\alpha=3}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{\alpha=3} }" align="center"/>
+
+#### Vector (**1<sup>st</sup>** order **Tensor**)  <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\overrightarrow{\mathbf{v}}&space;=&space;\begin{bmatrix}&space;1\\&space;2\\&space;3\\4\end{bmatrix}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\overrightarrow{\mathbf{v}} = \begin{bmatrix} 1\\ 2\\ 3\\4\end{bmatrix}}" align="center"/>, The dimension of this Vector is 4, (<img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\textbf{Dimension&space;of&space;a&space;Vector&space;=&space;the&space;number&space;of&space;elements}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \textbf{Dimension of a Vector = the number of elements} }" align="center"/>)
+
+#### Matrix (**2<sup>nd</sup>** order **Tensor**) <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{A_{i,j}}=&space;\begin{bmatrix}1&space;&&space;2&space;&space;&&space;3&space;\\4&space;&&space;5&space;&&space;5&space;\\\end{bmatrix}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{A_{i,j}}= \begin{bmatrix}1 & 2 & 3 \\4 & 5 & 5 \\\end{bmatrix}}" align="center"/>
+
+#### Tensor (**3<sup>rd</sup>** and higher order **Tensor**) <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" />
+
+#### Example
+* Colour images, Video data( **4<sup>th</sup>** order tensors coz series of images)
+ 
