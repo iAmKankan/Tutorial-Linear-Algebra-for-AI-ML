@@ -19,14 +19,14 @@ $\large{\color{purple}\textrm{Answer}:}$ A **Scalar** is a number. It is a physi
 _Scalar quantities_ change when their _magnitude_ changes.
 
 ### ⬜ What is a Vector?
-$\large{\color{purple}\textrm{Answer}:}$ A **vector** in machine learning is simply an **array of numbers**. 
+$\large{\color{Purple}\textrm{Answer}:}$ A **vector** in machine learning is simply an **array of numbers**. 
 
 In **physics**, a Vector is a quantity that has both **magnitude** and **direction**. 
 
-In **Computer Science Vector** is a data in _tabuler form_ having _rows_ and _columns_. 
+In **Computer Science Vector** is a data in _tabular form_ having _rows_ and _columns_. 
    *  A vector is just an **array of numbers**.
    *  Every vector has a length. 
-   *  In mathematics notation- If we want to say that a vector  $\large{\color{Purple} x}$ consists of $\large{\color{Purple} n \}$ real-valued scalars, we can express this as $\large{\color{Purple} x\in \mathbb{R}^n}$..
+   *  In mathematics notation- If we want to say that a vector  $\large{\color{Purple} x}$ consists of $\large{\color{Purple} n \}$ real-valued scalars, we can express this as  <img width="50" height="36" alt="CodeCogsEqn (5)" src="https://github.com/user-attachments/assets/4bb5798a-b8ea-49cd-a68a-fb9085e94fff" />
    *  The <ins><i>length</i></ins> of a vector is commonly called the <ins><i>dimension</i></ins> of the vector.
    *  When a tensor represents a vector (with precisely one axis), we can also access its length via the .shape attribute. The shape is a tuple that lists the length (dimensionality) along each axis of the tensor. For tensors with just one axis, the shape has just one element.
 
