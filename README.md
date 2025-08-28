@@ -83,7 +83,8 @@ $\large{\color{Purple}\textrm{Answer}:}$
 ### ⬜ What is a Tensor?
 $\large{\color{Purple}\textrm{Answer}:}$  In Machine Learning, **Tensors** are an array of numbers with **dimensions greater than two(2)**.
 
-_The general term of **Scalars**, **Vectors** and **Matrix** is **Tensors**._ The use of **Tensors** or **multi-dimensional matrices** Google named the package "**Tensorflow**".
+* _The general term of **Scalars**, **Vectors** and **Matrix** is **Tensors**._
+* The use of **Tensors** or **multi-dimensional matrices** Google named the package "**Tensorflow**".
 
 #### Example #1
 <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" />
