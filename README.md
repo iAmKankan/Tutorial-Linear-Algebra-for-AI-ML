@@ -31,9 +31,17 @@ In **Computer Science Vector** is a data in _tabular form_ having _rows_ and _co
    *  When a tensor represents a vector (with precisely one axis), we can also access its length via the .shape attribute. The shape is a tuple that lists the length (dimensionality) along each axis of the tensor. For tensors with just one axis, the shape has just one element.
 
 #### Example #1
-* Let say <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{\overrightarrow{x}&space;\in&space;\mathbb{R}^n}&space;}" title="{\color{Purple}\mathbf{\overrightarrow{x} \in \mathbb{R}^n} }" />, be the input vector. <img src="https://latex.codecogs.com/svg.image?{\color{Purple}x=\begin{bmatrix}&space;{\color{Purple}x_1}\\&space;{\color{Purple}x_2}\\{\color{Purple}\vdots&space;}\\{\color{Purple}x_n}\end{bmatrix}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}x=\begin{bmatrix} {\color{Purple}x_1}\\ {\color{Purple}x_2}\\{\color{Purple}\vdots }\\{\color{Purple}x_n}\end{bmatrix}}" align="center"/>
- 
-* <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{11m\&space;east\&space;and\&space;15ms^{-1}\&space;at\&space;30^{\circ}&space;}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{11m\ east\ and\ 15ms^{-1}\ at\ 30^{\circ} }}" /> to the horizontal are both vector quantities.
+* Let say <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{\overrightarrow{x}&space;\in&space;\mathbb{R}^n}&space;}" title="{\color{Purple}\mathbf{\overrightarrow{x} \in \mathbb{R}^n} }" />, be the input vector. 
+
+$$\large{\color{Purple}x=\begin{bmatrix} 
+x_1\\
+x_2\\
+x_3\\
+\vdots\\
+x_n\\
+\end{bmatrix}}$$
+
+* ${\color{Purple}\mathrm{11m} \ east}$ and ${\color{Purple}\mathrm{15ms^{-1}} \ at \ \mathrm{30^{\circ}}}$ to the horizontal, are both vector quantities.
 
 #### Vector qualities include - 
 * displacement
@@ -51,25 +59,31 @@ In **Computer Science Vector** is a data in _tabular form_ having _rows_ and _co
 #### Example #2
 * A geostationary satellite is in orbit above Earth. It moves at constant speed but its velocity is constantly changing (since its direction is always changing).
 
-### ⬜ Difference between Scalar and Vector quantities
+### ⬜ What is the difference between Scalar and Vector quantities?
+$\large{\color{Purple}\textrm{Answer}:}$
 * **Speed** is a scalar quantity – **it is the rate of change in the distance travelled by an object.**
 * While **velocity** is a **vector quantity** – **it is the speed of an object in a particular direction.**
 
 
- ### ⬜  Matrix
- In **Machine Learning**, a matrix is a **2-D array** of numbers. In Computer Science, a **matrix** is a **_multidimensional array_**. 
+ ### ⬜  What is a Matrix?
+ $\large{\color{Purple}\textrm{Answer}:}$  In **Machine Learning**, a matrix is a **2-D array** of numbers. In **Computer Science**, a **matrix** is a **_multidimensional array_**. 
 
-#### Example #1
-* Let <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{W}=\mathbb{R}^{m\times&space;n}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{W}=\mathbb{R}^{m\times n}}" />, be the matrix of weight.
+#### What is the weight of a Matrix in Data Science?
+$\large{\color{Purple}\textrm{Answer}:}$ If there is a matrix $\large{\color{Purple}A_{m \times n}}$ then the weight of the matrix would be-
 
-### Difference between Vector and Matrix
-*  A **matrix** is a rectangular array of numbers while a **vector** is a list of number. 
-*  Vector have one index, matrix having two index.
+<p align="center">
+  <img width="150" height="86" alt="CodeCogsEqn (6)" src="https://github.com/user-attachments/assets/7408dbbd-0fa4-4429-beb5-c7f74de7e646" />
+</p>
 
-### Tensors
- In Machine Learning, Tensors are array of numbers with **dimensions greater than two(2)**.
+### ⬜ What is the difference between a Vector and a Matrix?
+$\large{\color{Purple}\textrm{Answer}:}$
+*  A **matrix** is a rectangular array of numbers, while a **vector** is a list of numbers. 
+*  A vector has one index, a matrix has two indices.
 
-_The general term of **Scalars**, **Vectors** and **Matrix** is **Tensors**._ The use of **Tensors** or **multi-dimensional matrices** Google named the package "Tensorflow".
+### ⬜ What is a Tensor?
+$\large{\color{Purple}\textrm{Answer}:}$  In Machine Learning, **Tensors** are an array of numbers with **dimensions greater than two(2)**.
+
+_The general term of **Scalars**, **Vectors** and **Matrix** is **Tensors**._ The use of **Tensors** or **multi-dimensional matrices** Google named the package "**Tensorflow**".
 
 #### Example #1
 <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{A}_{i,j,k}}" />
