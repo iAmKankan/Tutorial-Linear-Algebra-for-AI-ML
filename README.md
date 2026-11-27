@@ -16,7 +16,7 @@
 |$\Large{\color{Purple}A^{-1}}$| the inverse of matrix **A**|
 |$\Large{\color{Purple}\det(A)}$|the determinant of matrix **A**|
 |$\Large{\color{Purple}AB}$|matrix multiplication of matrices **A** and **B**|
-|$\Large{\color{Purple}𝐮 \cdot 𝐯; \left< 𝐯 , 𝐮\right>}$|dot product of vectors **v** and **u**|
+|$\Large{\color{Purple}𝐮 \cdot 𝐯; \langle 𝐯 , 𝐮\rangle}$|dot product of vectors **v** and **u**|
 | $\Large{\color{Purple}ℝ}$ |the set of real numbers, e.g.0,-0.642,2,3.456|
 |$\Large{\color{Purple}ℝ^2}$|the set of two-dimensional vectors, e.g. $𝐯=\left [ 1  \quad 3 \right ]^{\top}$|
 | $\Large{\color{Purple}ℝ^n}$| the set of n-dimensional vectors |
