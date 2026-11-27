@@ -17,7 +17,7 @@
 |$\Large{\color{Purple}AB}$|matrix multiplication of matrices **A** and **B**|
 |$\Large{\color{Purple}𝐮 \cdot 𝐯; \left< 𝐯 , 𝐮\right>}$|dot product of vectors **v** and **u**|
 | $\Large{\color{Purple}ℝ}$ |the set of real numbers, e.g.0,-0.642,2,3.456|
-|$\Large{\color{Purple}ℝ^2}$|the set of two-dimensional vectors, e.g. $𝐯=\left [ 1  \quad 3 \right ]^T$|
+|$\Large{\color{Purple}ℝ^2}$|the set of two-dimensional vectors, e.g. $𝐯=\left [ 1  \quad 3 \right ]^{\top}$|
 | $\Large{\color{Purple}ℝ^n}$| the set of n-dimensional vectors |
 |$\Large{\color{Purple} 𝐯 \in ℝ^2}$ |vector 𝐯 is an element of $\Large{\color{Purple}ℝ^2}$|
 |$\Large{\color{Purple}\textbar 𝐯\textbar_1 }$ | L1-norm of a vector|
