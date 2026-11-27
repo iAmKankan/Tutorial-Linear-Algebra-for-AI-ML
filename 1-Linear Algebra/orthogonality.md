@@ -1,0 +1,20 @@
+Orthogonality generalizes geometric perpendicularity (a $90^{\circ }$ or $\frac{\pi }{2}$ radian angle) to vectors, subspaces, and general inner product spaces where two elements have a zero inner product. [1] (https://en.wikipedia.org/wiki/Orthogonality_(mathematics)), [2] (https://people.math.harvard.edu/~knill/teaching/math19b_2011/handouts/lecture17.pdf), [3] (https://www.youtube.com/watch?v=YCW1zTk4C9w)
+
+Core Definitions
+
+- Geometric Perpendicularity: Two Euclidean vectors or intersecting curves (via their tangent lines) are orthogonal when they meet at a right angle.
+- Dot / Inner Product: In $\mathbb{R}^{n}$, vectors $\mathbf{u}$ and $\mathbf{v}$ are orthogonal ($\mathbf{u} \perp \mathbf{v}$) if $\mathbf{u} \cdot \mathbf{v} = 0$. In general inner product spaces, they are orthogonal if $\langle \mathbf{u}, \mathbf{v} \rangle = 0$.
+- Orthonormality: An orthogonal set of unit vectors (each having length $\Vert{}\mathbf{u}\Vert{} = 1$) forms an orthonormal set.
+- Orthogonal Complement ($W^{\perp }$): For a subspace $W$, $W^{\perp }$ is the subspace of all vectors orthogonal to every vector in $W$. As detailed in Lecture 17: Orthogonality, any vector $\mathbf{y}$ decomposes uniquely into a component in $W$ and a component in $W^{\perp }$. [1] (https://www.youtube.com/watch?v=6nqMegdbxik&t=14), [2] (https://mathworld.wolfram.com/Orthogonal.html), [3] (https://math.libretexts.org/Bookshelves/Linear_Algebra/A_First_Course_in_Linear_Algebra_(Kuttler)/04%3A_R/4.11%3A_Orthogonality), [4] (https://www.varsitytutors.com/practice/subjects/linear-algebra/lessons/orthogonality-and-complements), [5] (https://www.scribd.com/document/904874619/Chapter-6-Orthogonality), [6] (https://en.wikipedia.org/wiki/Orthogonality_(mathematics)), [7] (https://people.math.harvard.edu/~knill/teaching/math19b_2011/handouts/lecture17.pdf), [8] (https://www.youtube.com/watch?v=YCW1zTk4C9w)
+
+Key Theorems & Tools
+
+- Pythagorean Theorem: If $\mathbf{x} \perp \mathbf{y}$, then $\Vert{}\mathbf{x} + \mathbf{y}\Vert{}^2 = \Vert{}\mathbf{x}\Vert{}^2 + \Vert{}\mathbf{y}\Vert{}^2$.
+- Orthogonal Projection: The projection of $\mathbf{y}$ onto a non-zero vector $\mathbf{u}$ is $\text{proj}_{\mathbf{u}}\mathbf{y} = \frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}}\mathbf{u}$, leaving a perpendicular residual $\mathbf{y} - \text{proj}_{\mathbf{u}}\mathbf{y}$.
+- Orthogonal Matrices: A square matrix $Q$ with orthonormal columns satisfies $Q^T Q = I$ and $Q^{-1} = Q^T$. Multiplying by $Q$ preserves vector lengths and angles (rotations and reflections).
+- Gram-Schmidt & QR Decomposition: As covered in Linear Algebra 18 Orthogonality, the Gram-Schmidt process builds orthogonal/orthonormal bases from linearly independent sets, leading to $A = QR$ factorization and least-squares approximations ($A^T A \hat{\mathbf{x}} = A^T \mathbf{b}$). Further proofs and decomposition theorems appear in Understanding Orthogonality in Linear Algebra. [1] (https://www.youtube.com/watch?v=_KkuTOpWQzQ&vl=en&t=196), [2] (https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/orthogonal-vectors/), [3] (https://www.isee-ai.cn/~zhwshi/sysu/course/linear_algebra/Lecture_note_18.pdf), [4] (https://www.youtube.com/watch?v=DTeLHowhVBU&t=33), [5] (https://people.math.harvard.edu/~knill/teaching/math19b_2011/handouts/lecture17.pdf), [6] (https://www.scribd.com/document/904874619/Chapter-6-Orthogonality)
+For example, $\mathbf{u} = (3, 1)$ and $\mathbf{v} = (-1, 3)$ have dot product $3(-1) + 1(3) = 0$. Projecting $\mathbf{y} = (2, 4)$ onto $\mathbf{u}$ yields $\text{proj}_{\mathbf{u}}\mathbf{y} = (3, 1)$, and the orthogonal component is $\mathbf{y} - \text{proj}_{\mathbf{u}}\mathbf{y} = (-1, 3)$, which is perpendicular to $\mathbf{u}$.
+If you tell me what context you are studying or applying this in, I can tailor deeper examples or practice problems to your goals:
+- Linear algebra coursework (Gram-Schmidt, QR decomposition, least squares)
+- Geometry or computer graphics (rotations, normals, projections)
+- Data science or signal processing (PCA, Fourier series, inner product spaces)
